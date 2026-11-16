@@ -1,0 +1,48 @@
+{
+  "float": {
+    "translateY": "4-8px",
+    "duration": "5-7s",
+    "easing": "ease-in-out",
+    "direction": "alternate",
+    "loop": true
+  },
+  "rotate": {
+    "duration": "40-80s",
+    "easing": "linear",
+    "loop": true,
+    "note": "Very slow; set transform-origin to the shape centre"
+  },
+  "draw": {
+    "technique": "stroke-dasharray:1; stroke-dashoffset 1 -> 0 (paths carry pathLength=1)",
+    "duration": "0.9-1.4s",
+    "easing": "ease-in-out",
+    "trigger": "slide-active"
+  },
+  "pulse": {
+    "scale": "1 -> 1.08",
+    "opacity": "1 -> 0.85",
+    "duration": "3s",
+    "loop": true
+  },
+  "parallax": {
+    "range": "4-12px",
+    "source": "pointer (desktop only)"
+  },
+  "sequential-reveal": {
+    "stagger": "80-140ms",
+    "duration": "0.4-0.6s",
+    "properties": [
+      "opacity",
+      "transform"
+    ]
+  },
+  "fade": {
+    "duration": "0.6s",
+    "easing": "ease-out"
+  },
+  "static": {
+    "note": "No motion"
+  },
+  "reducedMotion": "Under prefers-reduced-motion: reduce, render every decoration in its final static state.",
+  "performance": "Animate only the active slide; transform and opacity only; avoid blur filters."
+}

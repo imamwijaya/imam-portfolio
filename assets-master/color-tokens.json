@@ -1,0 +1,41 @@
+{
+  "colors": {
+    "primary": {
+      "name": "Deep Navy",
+      "hex": "#10367D",
+      "use": "Dark backgrounds, structure, key foreground illustration"
+    },
+    "secondary": {
+      "name": "Soft Gray",
+      "hex": "#EBEBEB",
+      "use": "Light card backgrounds, UI surfaces, negative space"
+    },
+    "accent": {
+      "name": "Sky Blue",
+      "hex": "#74B3DC",
+      "use": "Highlights, motion paths, graph lines, data accents"
+    },
+    "utility": {
+      "name": "White",
+      "hex": "#FFFFFF",
+      "use": "High-contrast details, linework, UI surfaces, website typography"
+    }
+  },
+  "derived": {
+    "navyDeep": {
+      "hex": "#0A2559",
+      "use": "Tonal depth step of Deep Navy only (phone bezels, shadows)"
+    }
+  },
+  "forbidden": [
+    "orange",
+    "yellow",
+    "purple",
+    "neon green",
+    "bright red"
+  ],
+  "typography": {
+    "heading": "Space Grotesk",
+    "body": "Inter"
+  }
+}

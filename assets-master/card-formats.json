@@ -1,0 +1,29 @@
+{
+  "type-01": {
+    "name": "Compact Vertical Card",
+    "aspectRatio": "2:3",
+    "masterWidth": 1200,
+    "masterHeight": 1800,
+    "displayHint": "Compact: ~280px wide on desktop, rounded 28px",
+    "titleSafeZone": "bottom 18%",
+    "artworkVectorViewBox": "0 0 600 900"
+  },
+  "type-02": {
+    "name": "Featured Tall Card",
+    "aspectRatio": "2:3",
+    "masterWidth": 1400,
+    "masterHeight": 2100,
+    "displayHint": "Featured: ~360px wide on desktop (visibly larger than Type 01), rounded 32px",
+    "titleSafeZone": "bottom 18%",
+    "artworkVectorViewBox": "0 0 600 900"
+  },
+  "type-03": {
+    "name": "Wide Landscape Card",
+    "aspectRatio": "8:5",
+    "masterWidth": 2400,
+    "masterHeight": 1500,
+    "displayHint": "Wide: ~560px wide on desktop, rounded 32px",
+    "titleSafeZone": "bottom-left 20%",
+    "artworkVectorViewBox": "0 0 1200 750"
+  }
+}
